@@ -1,0 +1,78 @@
+#truthTable{
+    text-align: center;
+}
+
+
+body{
+    background: url('/background.png') ;
+   
+}
+#calc{
+    display: grid;
+    grid-template-columns: 68px 68px 68px;
+    grid-template-rows: 68px 68px 68px 68px;
+    justify-content: center;
+    margin: auto;
+    grid-gap: 4px;
+    background-color: #0006;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 242px;
+  padding: 12px;
+  border-radius: 10px;
+  font-weight: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+#insert{
+
+    margin: auto;
+    height: 75px;
+    width: 50%;
+    margin-top: 25px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+}
+
+
+#ttable{
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    margin: 20px;
+    display: block;
+    background-color: white;
+}
+
+.container{
+    background-color: #ffffffb5;
+    padding: 20px;
+    margin-top: 10px;
+    width: 75%;
+    border-radius: 12px;
+}
+
+.tbtn{
+    display: block;
+    margin: auto;
+    height: 70px;
+width: 21%;
+border-radius: 10px;
+margin-bottom: 25px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+background-color: #6bff28;
+border: 1px solid #6bff28;
+
+}
+
+.tbtn:hover{
+  
+    background-color: rgb(255, 85, 85);
+border: 1px solid rgb(255, 85, 85);
+}
+
+#del:hover{
+ background-color: rgb(255, 85, 85);
+ border-radius: 8px;
+ border: 1px solid rgb(255, 85, 85);
+}
