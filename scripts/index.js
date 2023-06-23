@@ -1,7 +1,20 @@
 let ip = document.getElementById('ip')
 ttable.style.display = ('none')
 
+let vars = document.getElementsByClassName('vars')
 
+for (const v of vars) {
+  if(v)
+  console.log(v)
+}
+
+function disVars() {
+  console.log(vars)
+
+  vars.forEach((e, i) => {
+    console.log(i);
+  });
+}
 
 
 function passval(val) {

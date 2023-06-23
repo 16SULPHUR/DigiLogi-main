@@ -65,14 +65,30 @@
         </div>
 
         <div id="calc">
-        <button type="button" value="A" onclick="passval(this.value)">A</button>
-        <button type="button" value="B" onclick="passval(this.value)">B</button>
-        <button type="button" value="C" onclick="passval(this.value)">C</button>
+        <select name="" id="varSelect" onchange="disVars()">
+            <option value="" selected>Select Variables</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+        </select>
+
+        <button class="vars" type="button" value="A" onclick="passval(this.value)">A</button>
+        <button class="vars" type="button" value="B" onclick="passval(this.value)">B</button>
+        <button class="vars" type="button" value="C" onclick="passval(this.value)">C</button>
+        <button class="vars" type="button" value="D" onclick="passval(this.value)">D</button>
+        <button class="vars" type="button" value="E" onclick="passval(this.value)">E</button>
+        <button class="vars" type="button" value="F" onclick="passval(this.value)">F</button>
         
             
         <button type="button" value="!A" onclick="passval(this.value)">A'</button>
         <button type="button" value="!B" onclick="passval(this.value)">B'</button>
         <button type="button" value="!C" onclick="passval(this.value)">C'</button>
+        <button type="button" value="!D" onclick="passval(this.value)">D'</button>
+        <button type="button" value="!E" onclick="passval(this.value)">E'</button>
+        <button type="button" value="!F" onclick="passval(this.value)">F'</button>
 
         
         <button type="button" class="" value=" " onclick="passval(this.value)" disabled>'</button>
