@@ -21,7 +21,7 @@ function findChars(str) {
   if (chars === null) {
     return [];
   }
-  return chars;
+  return [... new Set(chars)];
 }
 
 function calculate() {
@@ -57,7 +57,7 @@ function calculate() {
 
   // const expressions = ['(a&&b)', '((a&&b)||c)', '(!((a&&b)||c))'];
   const expressions = [expression.value];
-  console.log(expressions);
+  // console.log(expressions);
 //   const input = ["A", "B", "C"];
     
     
